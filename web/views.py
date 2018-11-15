@@ -9,4 +9,8 @@ def index(request):
 
 
 def login(request):
-    return HttpResponse("hello")
+    return render(request, 'login.html')
+
+
+def register(request):
+    return render(request, 'register.html')

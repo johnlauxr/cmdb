@@ -17,6 +17,8 @@ from django.conf.urls import include, url
 from web import views
 
 urlpatterns = [
-    url(r'^login.html', views.login),
-    url(r'^index.html', views.index),
+    url(r'login.html', views.login),
+    url(r'index.html', views.index),
+    url(r'register.html', views.register),
+
 ]
